@@ -1,0 +1,6 @@
+{
+  "name": "Martha Murray Design",
+  "description": "A high-end architectural and interior portfolio showcase featuring contemporary and minimalist curated spaces designed by Martha Murray Design (MMD).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap');
+
+:root {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.font-heading {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+/* Custom progress & glassmorphism utilities */
+.frosted-glass {
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.frosted-glass-intense {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+/* Hide default scrollbars but allow scrolling */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(0,0,0,0.03);
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,0.15);
+  border-radius: 2px;
+}
+
