@@ -1,11 +1,16 @@
 import { CollectionItem, FurnitureProduct, ProjectExhibit } from './types';
 
+import contemporaryImg from './assets/images/poliform_contemporary_1781864978393.jpg';
+import minimalistImg from './assets/images/poliform_minimalist_1781865002133.jpg';
+import closetImg from './assets/images/poliform_closet_1781865022825.jpg';
+import detailImg from './assets/images/poliform_detail_chair_1781865045663.jpg';
+
 // Image paths matching generated files exactly (or fallback if needed)
 export const IMAGES = {
-  contemporary: '/src/assets/images/poliform_contemporary_1781864978393.jpg',
-  minimalist: '/src/assets/images/poliform_minimalist_1781865002133.jpg',
-  closet: '/src/assets/images/poliform_closet_1781865022825.jpg',
-  detail: '/src/assets/images/poliform_detail_chair_1781865045663.jpg'
+  contemporary: contemporaryImg,
+  minimalist: minimalistImg,
+  closet: closetImg,
+  detail: detailImg
 };
 
 export const COLLECTIONS: CollectionItem[] = [
